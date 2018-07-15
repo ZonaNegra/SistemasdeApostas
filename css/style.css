@@ -4,13 +4,14 @@ body, html {
   height: 100%; }
 
 .my-navbar {
-  background: #64c8c8;
+  background: #5959f7;
   width: 100%;
   position: fixed;
   padding: 0 5%;
   margin-bottom: 50px; }
   .my-navbar section .brand {
-    margin: 25px;
+    color: #fff;
+    margin: 14px;
     float: left;
     font-weight: bold; }
   .my-navbar section .menu-navbar {
@@ -22,10 +23,10 @@ body, html {
       color: #fff;
       cursor: pointer;
       margin-left: -4px;
-      padding: 25px;
+      padding: 14px;
       display: inline-block; }
       .my-navbar section .menu-navbar li:hover {
-        background: #64c8ff;
+        background: #2b2bef;
         transition: .9s; }
 
 .my-slide {
