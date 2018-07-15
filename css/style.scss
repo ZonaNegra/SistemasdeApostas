@@ -1,5 +1,17 @@
 $base-color: blue;
 
-div{
-    background: $base-color;
+.footer{
+    height: 90px;
+    background: green;
+    display: flex;
+    align-items: center;
+
+    .footer-text{
+        box-sizing: border-box;
+        color: wheat;
+        padding: 10px;
+        p{
+            margin: 0;
+        }
+    }
 }
