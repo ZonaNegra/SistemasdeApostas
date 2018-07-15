@@ -1,0 +1,61 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+  height: 100%; }
+
+.my-navbar {
+  background: #64c8c8;
+  width: 100%;
+  position: fixed;
+  padding: 0 5%;
+  margin-bottom: 50px; }
+  .my-navbar section .brand {
+    margin: 25px;
+    float: left;
+    font-weight: bold; }
+  .my-navbar section .menu-navbar {
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+    list-style: none; }
+    .my-navbar section .menu-navbar li {
+      color: #fff;
+      cursor: pointer;
+      margin-left: -4px;
+      padding: 25px;
+      display: inline-block; }
+      .my-navbar section .menu-navbar li:hover {
+        background: #64c8ff;
+        transition: .9s; }
+
+.my-slide {
+  height: 400px;
+  width: 100%;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.content {
+  height: 400px;
+  width: 100%;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.footer {
+  height: 90px;
+  background: green;
+  display: flex;
+  align-items: center; }
+  .footer .footer-body {
+    box-sizing: border-box;
+    color: wheat;
+    padding: 10px; }
+    .footer .footer-body .footer-text-left {
+      margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
