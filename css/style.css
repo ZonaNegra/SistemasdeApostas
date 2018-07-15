@@ -9,7 +9,8 @@ body, html {
   position: fixed;
   top: 0;
   padding: 0 5%;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  top: 0; }
   .my-navbar section .brand {
     color: #fff;
     margin: 14px;
